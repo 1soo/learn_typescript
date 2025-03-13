@@ -33,7 +33,7 @@ let b_l: string = "태백시?";
 // 퀴즈 2번
 let favorite: { song: string; singer: string } = {
   song: "기억의 습작",
-  singer: "전람회회",
+  singer: "전람회",
 };
 
 // 퀴즈 3번
