@@ -7,13 +7,13 @@ function 함수() {
 함수();
 
 // input: number, output: any
-function 함수2(x: number) {
+function 함수2_2(x: number) {
   return x * 2;
 }
-함수2(30); // output: 60
+함수2_2(30); // output: 60
 
 // input: number, output: number
-function 함수3(x: number): number {
+function 함수2_3(x: number): number {
   return x * 2;
 }
 
@@ -36,19 +36,19 @@ function 함수6(x: number | string): void {
 함수6(2);
 
 // 숙제1
-function 숙제1(name?: string): void {
+function 숙제2_1(name?: string): void {
   console.log(name === undefined ? "이름이 없습니다" : `안녕하세요 ${name}`);
 }
 
-// 숙제1("김한수");
-// 숙제1();
+// 숙제2_1("김한수");
+// 숙제2_1();
 
 // 숙제2
-function 숙제2(str: number | string): number {
+function 숙제2_2(str: number | string): number {
   return String(str).length;
 }
 
-// console.log(숙제2(9567));
+// console.log(숙제2_2(9567));
 
 // 숙제3
 function 결혼가능하냐(
