@@ -5,12 +5,12 @@ function 함수() {
 // 함수 호출
 함수();
 // input: number, output: any
-function 함수2(x) {
+function 함수2_2(x) {
     return x * 2;
 }
-함수2(30); // output: 60
+함수2_2(30); // output: 60
 // input: number, output: number
-function 함수3(x) {
+function 함수2_3(x) {
     return x * 2;
 }
 // input: number, output: void(none)
@@ -28,16 +28,16 @@ function 함수6(x) {
 }
 함수6(2);
 // 숙제1
-function 숙제1(name) {
+function 숙제2_1(name) {
     console.log(name === undefined ? "이름이 없습니다" : "\uC548\uB155\uD558\uC138\uC694 ".concat(name));
 }
-// 숙제1("김한수");
-// 숙제1();
+// 숙제2_1("김한수");
+// 숙제2_1();
 // 숙제2
-function 숙제2(str) {
+function 숙제2_2(str) {
     return String(str).length;
 }
-// console.log(숙제2(9567));
+// console.log(숙제2_2(9567));
 // 숙제3
 function 결혼가능하냐(월소득, 집보유여부, 매력점수) {
     var score = 월소득 + (집보유여부 ? 500 : 0) + (매력점수 === "상" ? 100 : 0);
